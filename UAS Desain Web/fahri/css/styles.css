@@ -1,0 +1,231 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0px;
+  font-size: 15px;
+  font-family: Times, "Times New Roman", serif;
+  background: linear-gradient(to right, #8B008B,#FFA500);
+ 
+}
+  
+/*  .fixed-nav{
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  width: 100%;
+}*/
+
+/*.profil{
+    background-color:#060;
+    float:right;
+    width:20%;
+    height:auto;
+    padding:150px;
+    margin-top:-1275px;
+    color:#FFF;
+  }*/
+  
+a.navbar-brand.navbar-link{
+  margin-top:7px;
+}
+
+ul.nav.navbar-nav.navbar-right{
+  margin-top:-250px;
+  margin-right:60px;
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  color:#363535;
+  background-color:#FFA500;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+  color:#FFA500;
+  background-color:transparent;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:white;
+  font-size: 24px;
+}
+
+.navbar-brand, .navbar-nav > li > a{
+  text-shadow:0 1px 0 rgba(255,255,255,.25);
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a{
+  background-repeat:repeat-x;
+  -webkit-box-shadow:inset 0 3px 9px rgba(0,0,0,.075);
+  background:rgba(255, 255, 255, 0.3);
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color:#ddd;
+  background:white;
+}
+
+button.navbar-toggle.collapsed{
+  margin-top:16px;
+  margin-right:52px;
+}
+
+nav.navbar.navbar-default{
+  height: 100px;
+  background: none;
+  box-shadow: none;
+  border: none;
+  padding-top: 200px;
+  padding-left: 30px;
+  padding-right: 75px;
+}
+
+.navbar-header a.navbar-brand img{
+  height: 200px;
+  margin-top: -120px;
+}
+
+.navbar-nav > li > a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+i.glyphicon.glyphicon-search{
+  font-size: 30px;
+  color:white;
+
+}
+
+#background{
+  margin-top:-120px;
+  background:url(../../fahri/poto/background1.jpg) no-repeat;
+  background-size:cover;
+  padding-top:200px;
+  height:638px;
+  max-height:1112px;
+}
+
+#background .jumbotron{
+  background:none;
+  margin-left:160px;
+  max-width:1000px;
+  margin-top:-100px;
+}
+
+#background .jumbotron h1{
+  font-family:Times, "Times New Roman", serif;
+  color:  #9400D3;
+  margin-bottom:-10px;
+  font-size: 45px;
+}
+
+#background .jumbotron p{
+  font-family:raleway;
+  color:#800080;
+  margin-bottom:-12px;
+  margin-top:27px;
+  padding-right:307px;
+}
+
+#visimisi{
+  text-align: center;
+  margin: 140px;
+  margin-left: 90px;
+}
+
+#visimisi .container h1{
+  margin:36px;
+}
+
+#visimisi .container .row{
+  margin:-3px;
+}
+
+#visimisi .isi .container.atas{
+  background:#2F4F4F;
+  margin-top:-85px;
+  padding-bottom:37px;
+  color: white;
+}
+
+.glyphicon{
+  position: relative;
+  font-size: 42px;
+  color: #27475e;
+}
+
+.container.bawah{
+  text-align: center;
+}
+
+#news{
+  margin-top: 31px;
+  background:#2F4F4F;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  width: 100%;
+  margin-right:200px;
+  color: white;
+}
+
+#contact .container h1{
+  text-align: center;
+  font-family: raleway;
+  margin-bottom: 48px;
+  color: white;
+}
+
+#contact .container .row #dua.col-lg-6.col-md-6.col-sm-6.col-xs-6{
+  padding-top:5px;
+  color: white;
+}
+
+#about{
+  background: linear-gradient(to right, #8B008B,#FFA500);
+  margin-top: 50px;
+  color:  #0000FF;
+}
+
+#about .container{
+  width: 50%;
+  padding: 5px;
+  margin-left:30px;
+}
+
+#about .container.footer .col-lg-6.col-md-6.col-sm-12.col-xs-12{
+  font-family:Times, "Times New Roman", serif;
+  color:#0000FF;
+  margin-top:20px;
+  margin-right:270px;
+  float: left;
+}
+
+.input-group.input-group-lg{
+  margin-top:10px;
+}
+
+#icon{
+  color:white;
+  font-size:37px;
+  margin-top:20px;
+  position:static;
+}
+
+#icon i.fa.fa-facebook-official{
+  margin-left:17px;
+}
+
+#icon i.fa.fa-twitter-square{
+  margin-left:17px;
+}
+
+#icon i.fa.fa-youtube-play{
+  margin-left:17px;
+}
+
+#kaki{
+  color: rgb(40,78,94);
+ background: linear-gradient(to right, #8B008B,#FFA500);
+}
